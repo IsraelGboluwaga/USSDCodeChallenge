@@ -1,7 +1,6 @@
 const router = require('express').Router();
+const {requestHandler} = require('./controllers/index.controller');
 
-router.get('/', (req, res) => {
-    res.send('Working');
-});
+router.get('/initiate', requestHandler);
 
 module.exports = router;
