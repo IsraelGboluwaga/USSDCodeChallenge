@@ -1,4 +1,4 @@
 module.exports = {
-    apiKey: '',
+    apiKey: process.env.apiKey,
     username: 'sandbox'
 };
