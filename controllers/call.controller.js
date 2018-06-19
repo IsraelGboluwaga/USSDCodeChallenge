@@ -26,7 +26,7 @@ const voiceCall = (callFrom, callTo) => {
         console.log('Error:', err);
         throw err;
     });
-
 };
 
+//Can't test. I don't have the callback.
 module.exports = voiceCall;
